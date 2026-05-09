@@ -10,3 +10,5 @@ class Solution:
         max_sum = max(max_sum, current_sum)
 
       return max_sum
+# Encuentra la suma máxima de un subarreglo contiguo (algoritmo de Kadane). Por cada elemento decide 
+#si extender el subarreglo actual o empezar uno nuevo, manteniendo registro del máximo global.
