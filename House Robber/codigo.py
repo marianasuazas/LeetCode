@@ -9,3 +9,6 @@ class Solution:
       return prev1
 
 --"complejidad temporal O(n) y espacio O(1)"
+`# Calcula el máximo dinero que un ladrón puede robar en casas 
+#en fila sin robar dos adyacentes, usando DP con dos variables que 
+#rastrean el mejor resultado acumulado.`
