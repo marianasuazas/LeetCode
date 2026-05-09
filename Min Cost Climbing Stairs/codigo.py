@@ -9,3 +9,5 @@ class Solution:
       return prev1
 
 ---"complejidad temporal O(n) y espacio O(1)"
+# Calcula el costo mínimo para subir una escalera donde puedes avanzar 1 o 2 pasos, 
+#usando programación dinámica con solo dos variables en lugar de un arreglo completo.
