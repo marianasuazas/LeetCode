@@ -12,6 +12,9 @@ class Solution:
           prev_end = end
       return count
 
- “Complejidad temporal: O(n log n) Debido al ordenamiento inicial de los intervalos. El recorrido posterior es lineal O(n).“
+Complejidad temporal O(n log n) Debido al ordenamiento inicial de los intervalos El recorrido posterior es lineal O(n)
+Complejidad espacialO(1) No se utiliza memoria adicional significativa, solo variables auxiliares
 
-“Complejidad espacial: O(1) No se utiliza memoria adicional significativa, solo variables auxiliares.“
+# Cuenta el mínimo de intervalos a eliminar para evitar solapamientos.
+# Ordena por fin de intervalo y recorre la lista: si un intervalo se solapa
+# con el anterior, lo cuenta como eliminado; si no, actualiza el fin previo.
